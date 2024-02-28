@@ -45,3 +45,13 @@ const myfunction = function(){
 
 console.log( typeof heros);
 console.log(typeof Symbol)
+
+
+
+//*********************************************Memory**********************************************//
+
+//there are two type of memory : stack type  OR Heap Type Memory 
+// when we use stack memory then what ever variable we declare we fine a copy memory of variable...BUt when we define variable in heap 
+// we fine a referance of the  original variable:
+
+// stack:= primitive , Heap := non - primitivve  
