@@ -55,3 +55,27 @@ console.log(typeof Symbol)
 // we fine a referance of the  original variable:
 
 // stack:= primitive , Heap := non - primitivve  
+
+let myyoutubename = "hiteshchoudharydotcom"
+
+let anothername = myyoutubename
+anothername = "chaiaurcode"
+console.log(myyoutubename);
+console.log(anothername);
+
+
+let userone = {
+    email:"user@google.com",
+    upi :"user@ybl"
+
+}
+
+
+let usertwo = userone
+ usertwo.email = "hitesh@google.com"
+
+ console.log(userone.email);
+ console.log(usertwo.email);
+
+ // stack me = jitne bhi hamare primitive type ke data type jese stack ,number ,boolean ye sare hmare stack me sstore hote hai
+//stack ke andar jitna v object lete hai uska hume copy hi milta hai but in heap me original value ke andar karte hai 
